@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Langa Turkinisia</title>
+    <title>Langa Arbistana</title>
     <link rel="icon" type="image/x-icon" href="assets/logosmall.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <a><img height="100px" src="https://github.com/langaturkinisia/assets/blob/main/langaturkistana.png?raw=true"></a>
+        <a><img height="100px" src="https://github.com/langaArbistana/assets/blob/main/langaturkistana.png?raw=true"></a>
         <nav>
             <ul>
                 <li><a href="#resources">Resources</a></li>
-                <li><a href="https://langaturkinisia.github.io/turtrans">Turtrans</a></li>
-                <li><a href="https://langaturkinisia.github.io/wikientur">Wikientur</a></li>
+                <li><a href="https://langaArbistana.github.io/turtrans">Turtrans</a></li>
+                <li><a href="https://langaArbistana.github.io/wikientur">Wikientur</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="hero">
-            <h2>Velkem en Langa Turkinisia Portal!</h2>
-            <p><strong>(Welcome to Turkinisian Language Portal!)</strong></p>
-            <p>Turkinisian is an easy language that everyone can learn.</p>
+            <h2>Velkem en Langa Arbistana Portal!</h2>
+            <p><strong>(Welcome to Arbistanan Language Portal!)</strong></p>
+            <p>Arbistanan is an easy language that everyone can learn.</p>
             <a href="#resources" class="cta-button">Get Started</a>
             <p id="output">Loading...</p>
 
             <script>
                 window.onload = () => {
-                    fetch('https://raw.githubusercontent.com/langaturkinisia/words-db/refs/heads/main/translations.json')
+                    fetch('https://raw.githubusercontent.com/langaArbistana/words-db/refs/heads/main/translations.json')
                         .then(response => {
                             if (!response.ok) {
                                 throw new Error('Network response was not ok');
@@ -48,7 +48,7 @@
         </section>
         <section id="resources">
             <h3>Learning Resources</h3>
-            <p>Everything you need to learn Turkinisian is in our <a href="https://discord.gg/uh4jXy3As2">Discord Server!</a></p>
+            <p>Everything you need to learn Arbistanan is in our <a href="https://discord.gg/uh4jXy3As2">Discord Server!</a></p>
         </section>
     </main>
 </body>
